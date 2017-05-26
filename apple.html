@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <title>Apple</title>
+<style>
+
+body{
+margin: 0;
+font-family: arial;
+}
+
+#all_site{
+width: 1300px
+margin:0 auto;
+
+}
+
+header{
+height: 48px;
+width: 100%;
+position: relative;
+align-items:center;
+background: rgba(0,0,0,0.8);
+
+}
+#header_nav{
+margin: 0 auto;
+max-width: 980px;
+padding: 0 22px;
+position: relative;
+z-index: 2;
+
+}
+
+header nav{
+position: absolute;
+margin-right: 20px;
+/*background: rgba(0,0,0,0.8);*/
+font-size: 14px;
+font-weight: 400;
+
+}
+
+
+header nav ul{
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: center;
+
+
+}
+
+header nav ul li{
+display:inline;
+color:white;
+display: flex;
+justify-content: space-around;
+padding: 0 35px;
+line-height: 48px;
+text-decoration: none;
+
+}.span_item{
+  color: white;
+}
+
+.span_item:hover {
+    opacity: .65;
+}
+
+.link-apple{
+background-size: 20px 44px;
+background-repeat: no-repeat;
+background-image: url("https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/apple/image_large.svg");
+background-position: center center;
+width: 20px;
+}
+.link-apple:hover{
+  opacity: .65;
+
+}
+.link-search{
+background-size: 20px 44px;
+background-repeat: no-repeat;
+background-image: url("https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg");
+background-position: center center;
+width: 20px;
+}
+.link-search:hover{
+  opacity: .65;
+
+}
+.link-bag{
+background-size: 20px 44px;
+background-repeat: no-repeat;
+background-image: url("https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_large.svg");
+background-position: center center;
+width: 20px;
+}
+.link-bag:hover{
+  opacity: .65;
+}
+header a{
+  text-decoration: none;
+}
+
+#global_nav. #ul_list{
+margin: 0 auto !important
+max-width: 980px;
+padding: 0 22px;
+position: relative;
+z-index: 2;
+
+}
+
+
+#pic{
+background-image: url("https://images.apple.com/v/home/df/images/heroes/today_xlarge.jpg");
+background-repeat: no-repeat;
+background-position: 40% 50%;
+background-size: cover;
+width: 100%;
+height:540px;
+margin: 0;
+position: relative;
+
+
+}
+
+.heading{
+z-index: 1000;
+text-align: center;
+color: #333;
+margin: 0 auto;
+
+}
+.inner{
+  position: absolute;
+  top:70px;
+  line-height: 2px;
+  right: 350px;
+  height: 186px;
+
+}
+div h1{
+    font-size: 30px;
+
+}
+span#in{
+  font-size: 18px;
+    line-height: 2;
+    font-weight: 00;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+div h2{
+  font-size: 48px;
+    line-height: 1.04167;
+    font-weight: 500;
+    letter-spacing: .006em;
+    color: #333;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+
+#home_links{
+display:flex;
+list-style-type: none;
+text-decoration: none;
+ position: absolute;
+ bottom: -35px;
+
+
+}
+.home_link{
+display: inline;
+list-style-type: none;
+font-size: 22px;
+line-height: 1.45455;
+font-weight: 300;
+color: #333;
+letter-spacing: .016em;
+font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+margin-top: 20px;
+text-decoration-line: none;
+padding: 10px;
+margin-top: 5px;
+}
+
+section.promos {
+display: flex;
+flex-direction: row;
+
+height: 200px;
+}
+
+ div.promo{
+  display:inherit;  
+  width: 100%;
+
+ }
+
+
+section.promos ul li{
+  width:25%;
+ }
+
+section ul{
+  display: inherit;
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  width:100%;
+}
+
+
+section ul li{
+
+border-top: 2px solid #fff;
+border-right: 2px solid #fff;
+
+
+}
+section li:last-child{
+border-right:none;
+
+
+}
+#img1{
+  background-image:url("https://images.apple.com/v/home/df/images/promos/iphone_large.jpg");
+  background-repeat:no-repeat;
+  background-size: 360px 200px;
+  height: 200px;
+  background-position: center;
+}
+#img2{
+  background-image: url("https://images.apple.com/v/home/df/images/promos/watch_large.jpg");
+  background-repeat:no-repeat;
+  background-size: 360px 200px;
+  height: 200px;
+  background-position: center;
+}
+#img3{
+   background-image: url("https://images.apple.com/v/home/df/images/promos/ipad_large.jpg");
+   background-repeat:no-repeat;
+  background-size: 360px 200px;
+  height: 200px;
+  background-position: center;
+}
+#img4{
+   background-image: url("https://images.apple.com/v/home/df/images/promos/macbook_pro_large.jpg");
+   background-repeat:no-repeat;
+  background-size: 360px 200px;
+  height: 200px;
+  background-position: center;
+
+}
+
+.footer_links{
+list-style-type: none;
+margin-right: 60px;
+
+}
+
+.footer_link a{
+  display: inline;
+
+}
+.footer_links li a{
+  color: #333;
+
+}
+#nav_links{
+  display: flex;
+
+}
+footer{
+  font-size: 11px;
+    line-height: 1.45455;
+    font-weight: 400;
+    letter-spacing: .005em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    min-width: 1024px;
+    overflow: hidden;
+        margin-top: -13px;
+}
+#nav_links{
+  margin-left: 100px;
+}
+#global_footer{
+display:flex;
+justify-content:center;
+padding: 0 22px;
+max-width: 980px;
+margin: 0 auto;
+}
+.footer_title{
+text-align: center;
+margin-bottom: 6px;
+font-size: 11px;
+font-weight: 600;
+font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+margin-right: 90px;
+
+
+}
+.footer_link{
+ font-size: 11px;
+    line-height: 1.27273;
+    font-weight: 400;
+    letter-spacing: .005em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    text-decoration: none;
+}
+#apple{
+  background-image: url("http://t3.gstatic.com/images?q=tbn:ANd9GcQMfBNv435xJA4OkrojDDzxiJTpUUuCC3LNRpmmS_mtgNc58Mrf3o9QEnKM");
+  background-color: white;
+}
+.gallery_item{
+  display: flex;
+}
+
+
+</style> 
+</head>
+<body>
+  <div id="all_site">
+  <header>
+  <div id="header_nav"> 
+  <nav id="global_nav">
+    <div id="ul_list">
+      <ul>
+          <li class="item_li">
+             <a class="link-apple" href="/" data-analytics-title="apple home" id="ac-gn-firstfocus"><span class="ac-gn-link-text"></span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">Mac</span>
+             </a>
+         </li>
+          <li>
+             <a href="#">
+                <span class= "span_item">iPad</span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">iPhone</span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">Watch</span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">TV</span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">Music</span>
+             </a>
+         </li>
+         <li>
+             <a href="#">
+                <span class= "span_item">Support</span>
+             </a>
+         </li>
+         <li class="item_li">
+             <a class="link-search" href="/"  ><span class="ac-gn-link-text"></span>
+             </a>
+         </li>
+         <li class="item_li">
+             <a class="link-bag" href="/" ><span class="ac-gn-link-text"></span>
+             </a>
+         </li>
+      </ul>
+    </div>
+   </nav>
+   </div>
+  </header>
+  <main>
+  
+    <article><div  id="pic"></div>
+      <div class="gallery_item" >
+          <div class="inner">
+            <div class="heading" >
+               <span id="in">Introducing </span>
+               <h1>
+              TODAY AT APPLE
+               </h1>  
+            </div>  
+            <h2>
+              Inspiration is now in session.
+            </h2>
+            <ul id="home_links">
+              <li><span><a class="home_link" href="#">See what’s at your Apple Store ></a></span></li>
+               <li><span><a class="home_link" href="#">Watch the film</a></span>
+               </li>
+            </ul>       
+         </div>
+     </div>
+    </article>
+    <section class="promos">
+      <ul>
+        <li>
+          <div id="img1" class="promo"></div>
+          <a href="#"></a>
+<!--           <span class="alt-copy">Apple Watch. Live a better day.</span>
+ -->        </li>
+        <li>
+          <div id="img2" class="promo"></div>
+         <a href="#"></a>
+<!--           <span class="alt-copy">iPhone. This is 7.</span>
+ -->        </li>
+        <li>
+          <div id="img3" class="promo"></div>
+          <a href="#"></a>
+        <!--   <span class="alt-copy">iPad. Flat-out fun.</span> -->
+        </li>
+        <li>
+          <div id="img4" class="promo"></div>
+          <a href="#"></a> 
+         <!--  <span class="alt-copy">MacBook Pro. A touch of genius.</span> -->
+        </li>
+      </ul>
+    </section>  
+  </main>
+</br>
+  <footer>
+    <div id='global_footer'>
+      <nav id="nav_links">
+        <div class='group_links'>
+          <h3 class="footer_title">Shop and Learn</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Mac</a> </li>
+            <li><a class="footer_link" href="#">iPad</a></li> 
+            <li><a class="footer_link" href="#">iPhone</a></li>
+            <li><a class="footer_link" href="#">Watch</a></li>
+            <li><a class="footer_link" href="#">TV</a></li>
+            <li><a class="footer_link" href="#">Music</a></li>
+            <li><a class="footer_link" href="#">iTunes</a></li>
+            <li><a class="footer_link" href="#">iPod</a></li> 
+            <li><a class="footer_link" href="#">Accessories</a></li>
+            <li><a class="footer_link" href="#">Gift Cards</a></li>
+          </ul>
+        </div>
+        <div  class='group_links'>
+          <h3 class="footer_title">Apple Store</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Find a Store</a></li>
+            <li><a class="footer_link" href="#">Genius Bar</a></li>
+            <li><a class="footer_link" href="#">Today at Apple</a></li>
+            <li><a class="footer_link" href="#">Apple Camp</a></li>
+            <li><a class="footer_link" href="#">Field Trip</a></li>
+            <li><a class="footer_link" href="#">Apple Store App</a></li>
+            <li><a class="footer_link" href="#">Refurbished and Clearance</a></li>
+            <li><a class="footer_link" href="#">Financing</a></li>
+            <li><a class="footer_link" href="#">Reuse and Recycling</a></li>
+            <li><a class="footer_link" href="#">Order Status</a></li>
+            <li><a class="footer_link" href="#">Shopping Help</a></li>
+          </ul>
+        </div>
+         <div class='group_links'>
+          <h3 class="footer_title">For Education</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Apple and Education</a></li>
+            <li><a class="footer_link" href="#">Shop for College</a></li>  
+          </ul>
+        <!-- </div>
+         <div id='group_links_4'> -->
+          <h3 class="footer_title">For Business</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Apple and Business</a></li>
+            <li><a class="footer_link" href="#">Shop for Business</a></li>         
+          </ul>
+        </div>
+        <div  class='group_links'>
+          <h3 class="footer_title">Account</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Manage Your Apple ID</a></li>
+            <li><a class="footer_link" href="#">Apple Store Account</a></li>
+            <li><a class="footer_link" href="#">iCloud.com</a></li>
+          </ul>
+       <!--  </div>
+        <div id='group_links_6'> -->
+          <h3 class="footer_title">Apple Values</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Accessibility</a></li>
+            <li><a class="footer_link" href="#">Education</a></li>
+            <li><a class="footer_link" href="#">Environment</a></li>
+            <li><a class="footer_link" href="#">Inclusion and Diversity</a></li>
+            <li><a class="footer_link" href="#">Privacy</a></li>
+            <li><a class="footer_link" href="#">Supplier Responsibility</a></li>
+          </ul>
+        </div>
+        <div class='group_links'>
+          <h3 class="footer_title">About Apple</h3>
+          <ul class="footer_links">
+            <li><a class="footer_link" href="#">Apple Info</a></li>
+            <li><a class="footer_link" href="#">Newsroom</a></li>
+            <li><a class="footer_link" href="#">Job Opportunities</a></li>
+            <li><a class="footer_link" href="#">Press Info</a></li>
+            <li><a class="footer_link" href="#">Investors</a></li>
+            <li><a class="footer_link" href="#">Events</a></li>
+            <li><a class="footer_link" href="#">Contact Apple</a></li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+  </footer>
+
+
+</div>
+
+
+
+
+     
+      
+</body>
+</html>
